@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
+  base: '/Odlweb/',
   plugins: [
     react({
       babel: {
