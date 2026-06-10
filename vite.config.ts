@@ -8,7 +8,6 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
-  base: './',
   plugins: [
     react({
       babel: {
